@@ -1,5 +1,3 @@
-// UI logic.
-
 $(document).ready(function () {
 
     var routes = ["juja", "mombasa", "waiyaki", "jogoo", "ngong", "kiambu", "thika"];
@@ -46,10 +44,10 @@ $(document).ready(function () {
           $("#submit").text("Your pickup point is along Ronald Ngala street.Travel safe!")
         })
 
-        $("#button").submit(function(event){
+          
         var nameInput =$("input#name").val();
         var routeInput = $("input#route").val();
-        var idInput = $("input#Id").val();
+        var idInput = $("input#Id no").val();
     
         $(".name1").text(nameInput);
         $(".route1").text(routeInput);
