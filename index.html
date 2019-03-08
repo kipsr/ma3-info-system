@@ -15,16 +15,20 @@
 
 <body>
     <div class="container">
-        <div class="jumbotron">
-            <img src="images/mat1.jpeg">
-            <h1>Nairobi Mat Info App</h1>
+        <div class="head">
+               <div class="jumbotron">
+                    <h1>Nairobi Mat Info App</h1>
+            <img src="images/bus.jpeg">
+               </div>
+         
         </div>
 
         <div class="firstpage">
-            <div class="main">
-                <p>
-                    <strong>Welcome!</strong> Thank you for choosing this site to help you navigate your way in town and its environs.</p>
-
+            <div class="">
+                <h2 class="bg-warning par" id="click">
+                    <strong>Welcome!</strong> Thank you for choosing this site to help you navigate your way in town and its environs.</h2>
+             <div class="row">
+                 <div class="col-md-3">
                 <h3 class="bg-danger" id="click">Enter your details!</h3>
 
                 <form class="card" id="form" class="form-group">
@@ -32,14 +36,16 @@
 
                     <input type="text" class="form-control" id="name" placeholder="Passenger Name" required name="name">
                     <br>
-                    <input type="text" class="form-control" id="contacts" placeholder="Contacts" required name="route">
+                    <input type="text" class="form-control" id="contacts" placeholder="Contacts" required name="contacts">
                     <br>
-                    <input type="text" class="form-control" id="ID NO" placeholder=" ID NO" required name="route">
+                    <input type="text" class="form-control" id="email" placeholder="email" required name="email">
                     <br>
+                </div>
+                <div class="col-md-5">
                     <form class="saccos">
-                        <ol>
-                            <li class="routes" id="routes">Which route do you want to navigate?</li>
-                            <div class="radio" id="paragraph">
+                        <ul>
+                            <li class="routes bg-success" id="routes" >Which route do you want to navigate?</li>
+                            <div class="radio well" id="paragraph">
                                 <label>
                                     <input id="Thika" type="radio" required name="choice1" class="answer1" value="0"> Thika road
  
@@ -63,23 +69,23 @@
                                 <label>
                                     <input id="Kiambu" type="radio" name="choice1" class="route6" value="0"> Kiambu Road</label>
                                 <br>
-                                <p id="show">Show saccos plying the route</p>
-                            </div>
-                            
+                        </ul>
+                        <
 
-
-
+                    </div>
+                    <div class="col-md-4 well">
+                            <button type="submit" class="btn-success" id="submit" >Confirm.</button><br><br>
+                            <p id="show">Show saccos plying the route</p>
+                    </div>      
+                    <br><br><br>          
+             </div>
             </div>
-
-            <button type="submit" class="btn-danger" id="submit" >Confirm.</button>
-
-            </form>
-            <label>Contributors:</label><br>
-            <p>Fred. Kibet. Cornelius. Judy.</p>
+            <div class="panel-footer">
+                    <label>Contributors:</label><br>
+                    <h3>Fred. Kibet. Cornelius. Judy.</h3>
+            </div>
         </div>
     </div>
-
-
 
 
 </body>

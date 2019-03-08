@@ -41,7 +41,7 @@ $(document).ready(function () {
 
 
         $("#submit").click(function(){
-          $("#submit").text("Your pickup point is along Ronald Ngala street.Travel safe!")
+          $("#submit").text("The Saccos Playing your route are:")
         })
 
           

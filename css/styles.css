@@ -1,0 +1,13 @@
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiJI8a3QmGkibkAEcQziMh_S3vDeQdaNEBUtJ8QkM51BJVElxl);
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+} 
+.jumbotron {
+  background-color: aqua;
+}
+.par {
+  text-decoration-color: brown;
+}
