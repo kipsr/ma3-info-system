@@ -42,16 +42,45 @@ $(document).ready(function () {
 
 
 
-        // $("#submit").click(function(){
-        //   $("#submit").text("Your pickup point is along Ronald Ngala street.Travel safe!")
-        // })
+        $("#submit").click(function(){
+          $("#submit").text("Your pickup point is along Ronald Ngala street.Travel safe!")
+        })
 
-        // $("#button").submit(function(event){
-        // var nameInput =$("input#name").val();
-        // var routeInput = $("input#route").val();
-        // var idInput = $("input#Id").val();
+        $("#button").submit(function(event){
+        var nameInput =$("input#name").val();
+        var routeInput = $("input#route").val();
+        var idInput = $("input#Id").val();
     
-        // $(".name1").text(nameInput);
-        // $(".route1").text(routeInput);
-        // $(".id no1").text(idInput);
+        $(".name1").text(nameInput);
+        $(".route1").text(routeInput);
+        $(".id no1").text(idInput);
+    
+
+
+
+
+
+
+        if(routes==[0]){
+//   $(#p).text(routes[0]);
+// };
+// else if (routes==[1]){
+//   $(#p).text(routes[1]);
+// };
+// else if (routes==[2]){
+//   $(#p).text(routes[2]);
+// };
+// else if (routes==[3]){
+//   $(#p).text(routes[3]);
+// };
+// else if (routes==[4]){
+//   $(#p).text(routes[4]);
+// };
+// else if (routes==[5]){
+//   $(#p).text(routes[5]);
+// };
+// else if (routes==[6]){
+//   $(#p).text(routes[6]);
+}
+});
         
