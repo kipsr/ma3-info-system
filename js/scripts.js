@@ -14,4 +14,29 @@ $(document).ready(function () {
         $("#Juja").click(function(){
           $("#show").text(routes[0])
         
-        })
+        });
+        $("#Mombasa").click(function(){
+            $("#show").text(routes[1])
+          
+          })
+          $("#Waiyaki").click(function(){
+            $("#show").text(routes[2])
+          
+          })
+          $("#Jogoo").click(function(){
+            $("#show").text(routes[3])
+          
+          })
+          $("#Ngong").click(function(){
+            $("#show").text(routes[4])
+          
+          })
+          $("#Kiambu").click(function(){
+            $("#show").text(routes[5])
+          
+          })
+          $("#Thika").click(function(){
+            $("#show").text(routes[6])
+          
+          })
+  
