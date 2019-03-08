@@ -42,16 +42,16 @@ $(document).ready(function () {
 
 
 
-        $("#submit").click(function(){
-          $("#submit").text("Your pickup point is along Ronald Ngala street.Travel safe!")
-        })
+        // $("#submit").click(function(){
+        //   $("#submit").text("Your pickup point is along Ronald Ngala street.Travel safe!")
+        // })
 
-        $("#button").submit(function(event){
-        var nameInput =$("input#name").val();
-        var routeInput = $("input#route").val();
-        var idInput = $("input#Id").val();
+        // $("#button").submit(function(event){
+        // var nameInput =$("input#name").val();
+        // var routeInput = $("input#route").val();
+        // var idInput = $("input#Id").val();
     
-        $(".name1").text(nameInput);
-        $(".route1").text(routeInput);
-        $(".id no1").text(idInput);
+        // $(".name1").text(nameInput);
+        // $(".route1").text(routeInput);
+        // $(".id no1").text(idInput);
         
