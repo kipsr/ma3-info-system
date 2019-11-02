@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Matatu Information System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+               <div class="jumbotron">
+                    <h1>Nairobi Mat Info App</h1>
+            <img src="images/bus.jpeg">
+               </div>
+         
+        </div>
+
+        <div class="firstpage">
+            <div class="">
+                <h2 class="bg-warning par" id="click">
+                    <strong>Welcome!</strong> Thank you for choosing this site to help you navigate your way in town and its environs.</h2>
+             <div class="row">
+                 <div class="col-md-3">
+                <h3 class="bg-danger" id="click">Enter your details!</h3>
+
+                <form class="card" id="form" class="form-group">
+
+
+                    <input type="text" class="form-control" id="name" placeholder="Passenger Name" required name="name">
+                    <br>
+                    <input type="text" class="form-control" id="contacts" placeholder="Contacts" required name="contacts">
+                    <br>
+                    <input type="text" class="form-control" id="email" placeholder="email" required name="email">
+                    <br>
+                </div>
+                <div class="col-md-5">
+                    <form class="saccos">
+                        <ul>
+                            <li class="routes bg-success" id="routes" >Which route do you want to navigate?</li>
+                            <div class="radio well" id="paragraph">
+                                <label>
+                                    <input id="Thika" type="radio" required name="choice1" class="answer1" value="0"> Thika road
+ 
+                               </label>
+                                <br>
+                                <label>
+                                    <input id="Mombasa" type="radio" name="choice1" class="route1" value="mbsrd"> Mombasa road </label>
+                                <br>
+                                <label>
+                                    <input id="Ngong" type="radio" name="choice1" class="route2" value="ngrd"> Ngong road </label>
+                                <br>
+                                <label>
+                                    <input id="Waiyaki" type="radio" name="choice1" class="route3" value="waird"> Waiyaki way </label>
+                                <br>
+                                <label>
+                                    <input id="Juja" type="radio" name="choice1" class="route4" value="0"> Juja Road</label>
+                                <br>
+                                <label>
+                                    <input id="Jogoo" type="radio" name="choice1" class="route5" value="0"> Jogoo road</label>
+                                <br>
+                                <label>
+                                    <input id="Kiambu" type="radio" name="choice1" class="route6" value="0"> Kiambu Road</label>
+                                <br>
+                        </ul>
+                        <
+
+                    </div>
+                    <div class="col-md-4 well">
+                            <button type="submit" class="btn-success" id="submit" >Confirm.</button><br><br>
+                            <p id="show">Show saccos plying the route</p>
+                    </div>      
+                    <br><br><br>          
+             </div>
+            </div>
+            <div class="panel-footer">
+                    <label>Contributors:</label><br>
+                    <h3>Fred. Kibet. Cornelius. Judy.</h3>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
